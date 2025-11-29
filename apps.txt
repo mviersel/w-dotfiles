@@ -1,0 +1,108 @@
+# ==========================
+# CLI / Dev tools
+# ==========================
+Git.Git
+OpenJS.NodeJS.LTS
+DenoLand.Deno
+Python.Python.3.13
+Python.Launcher
+Oracle.JDK.25
+Oracle.JavaRuntimeEnvironment
+vim.vim
+
+# ==========================
+# Browsers
+# ==========================
+Mozilla.Firefox
+Microsoft.Edge
+Brave.Brave
+Zen-Team.Zen-Browser
+Alex313031.Thorium
+
+# ==========================
+# Terminal / Windows tweaking
+# ==========================
+Microsoft.WindowsTerminal
+glzr-io.glazewm
+valinet.ExplorerPatcher
+Microsoft.PowerToys
+
+# ==========================
+# Editors / Notities / Productiviteit
+# ==========================
+Microsoft.VisualStudioCode
+Notion.Notion
+ToEverything.AFFiNE
+GitHub.GitHubDesktop
+FreeCAD.FreeCAD
+Figma.Figma
+
+# ==========================
+# Media / Audio / Video
+# ==========================
+VideoLAN.VLC
+Jellyfin.Server
+yt-dlp.yt-dlp
+yt-dlp.FFmpeg
+Gyan.FFmpeg
+VB-Audio.Voicemeeter
+Rem0o.FanControl
+RivaTuner.Statistics.Server  # let op: jouw entry heet Guru3D.RTSS in winget
+Unigine.HeavenBenchmark
+QuickLook.QL-Win  # komt overeen met QL-Win.QuickLook
+
+# ==========================
+# Bestandsbeheer / Utils
+# ==========================
+7zip.7zip
+RARLab.WinRAR
+CodeSector.TeraCopy
+SumatraPDF.SumatraPDF
+LocalSend.LocalSend
+
+# ==========================
+# Cloud / Sync / Passwords
+# ==========================
+Dropbox.Dropbox
+Mega.MEGASync
+Bitwarden.Bitwarden
+AppWork.JDownloader
+Modrinth.ModrinthApp
+Spotify.Spotify
+
+# ==========================
+# Browsers / tools extra
+# ==========================
+Zen-Team.Zen-Browser
+ImputNet.Helium
+Brave.Brave
+
+# ==========================
+# Overige desktop tools
+# ==========================
+REALiX.HWiNFO
+HexChat.HexChat
+namazso.PawnIO
+xanderfrangos.twinkletray
+ToEverything.AFFiNE
+Discord.Discord
+AFFiNE.ToEverything  # fallback als ToEverything.AFFiNE verandert
+LocalSend.LocalSend
+Olivia.VIA
+TwinkleTray.xanderfrangos  # fallback id als die wijzigt
+
+# ==========================
+# Game launchers
+# ==========================
+Valve.Steam
+EpicGames.EpicGamesLauncher
+
+# ==========================
+# PDF / Adobe
+# ==========================
+Adobe.Acrobat.Reader.64-bit
+
+# ==========================
+# Winget tooling / GUI
+# ==========================
+MartiCliment.UniGetUI
