@@ -1,0 +1,8 @@
+Microsoft.VisualStudioCode
+Mozilla.Firefox
+Google.Chrome
+7zip.7zip
+Git.Git
+Nodejs.NodeJS
+SlackTechnologies.Slack
+Spotify.Spotify

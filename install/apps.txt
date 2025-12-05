@@ -90,6 +90,7 @@ AFFiNE.ToEverything  # fallback als ToEverything.AFFiNE verandert
 LocalSend.LocalSend
 Olivia.VIA
 TwinkleTray.xanderfrangos  # fallback id als die wijzigt
+raycast
 
 # ==========================
 # Game launchers
