@@ -1,0 +1,26 @@
+[
+  {
+    "key": "Ctrl+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.nextPanelView"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.previousPanelView"
+  },
+  {
+    "key": "Ctrl+p",
+    "command": "workbench.action.quickOpen"
+  }
+]
