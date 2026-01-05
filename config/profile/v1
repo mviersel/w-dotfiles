@@ -1,0 +1,50 @@
+function Start-NvimWithApp {
+  param(
+    [string]$AppName
+  )
+
+  $old = $env:NVIM_APPNAME
+
+  try {
+    if ([string]::IsNullOrEmpty($AppName)) {
+      Remove-Item Env:NVIM_APPNAME -ErrorAction SilentlyContinue
+    } else {
+      $env:NVIM_APPNAME = $AppName
+    }
+
+    nvim
+  }
+  finally {
+    if ([string]::IsNullOrEmpty($old)) {
+      Remove-Item Env:NVIM_APPNAME -ErrorAction SilentlyContinue
+    } else {
+      $env:NVIM_APPNAME = $old
+    }
+  }
+}
+
+function nvim-select {
+  Clear-Host
+  Write-Host "Select Neovim instance:`n"
+
+  Write-Host "[1] Default (nvim)"
+  Write-Host "[2] Lazy (nvim-lazy)"
+  Write-Host "[3] kickstart (nvim-kickstart)"
+  Write-Host "[4] nvChad (nvim-chad)"
+  Write-Host "[5] nvim minimal (nvim-min)"
+  Write-Host "[6] nvim jacob (nvim-jakob)"
+
+  $choice = Read-Host "Choice"
+
+  switch ($choice) {
+    "1" { Start-NvimWithApp "" }
+    "2" { Start-NvimWithApp "nvim-lazy" }
+    "3" { Start-NvimWithApp "nvim-kickstart" }
+    "4" { Start-NvimWithApp "nvim-chad" }
+    "5" { Start-NvimWithApp "nvim-min" }
+    "6" { Start-NvimWithApp "nvim-jakob" }
+    default {
+      Write-Host "Invalid choice" -ForegroundColor Red
+    }
+  }
+}
