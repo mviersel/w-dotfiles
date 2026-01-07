@@ -1,3 +1,4 @@
+# let op dat fzf geinstalleerd is
 # ter gebruik bij nvim-versie met C:\locatie
 function nvim-lazy  { $env:NVIM_APPNAME = "base";   nvim @args }
 function nvim-chad  { $env:NVIM_APPNAME = "nvim-chad";   nvim @args }
