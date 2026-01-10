@@ -1,0 +1,17 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.settings.applyToAllProfiles": [],
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-h>": false,
+    "<C-j>": false,
+    "<C-k>": false,
+    "<C-l>": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
