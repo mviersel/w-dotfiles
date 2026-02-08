@@ -19,14 +19,12 @@ set-executionpolicy bypass -scope process -force .\setup.ps1
 winget install neovin
 ```
 Zorg dat NodeJs geinstalleerd is
-````
 
 ```
 winget install openjs.nodejs && winlibs
 ```
 
 Daarna moet je een C-compiler hebben en tree-sitter
-
 ```
 npm install nvim-treesitter-cli
 ``` 
