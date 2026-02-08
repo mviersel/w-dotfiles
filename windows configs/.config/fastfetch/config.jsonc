@@ -1,0 +1,50 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "color": {
+      "1": "white",
+      "2": "cyan",
+      "3": "cyan",
+      "4": "white"
+    },
+    "padding": {
+      "top": 2,
+      "left": 5,
+      "right": 5
+    }
+  },
+  "display": {
+    "separator": ": ",
+    "color": {
+      "keys": "cyan",
+      "title": "white"
+    }
+  },
+  "modules": [
+    // "title", naam van pc
+    "break",
+    "break",
+    "title",
+    {
+      "type": "os",
+      "format": "{name} {version}"
+    },
+    "separator",
+    {
+      "type": "host",
+      "key": "MB"
+    },
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "display",
+    "separator",
+    "uptime",
+    //"packages",
+    //"de",
+    "break",
+    "break"
+  ]
+}

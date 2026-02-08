@@ -45,7 +45,7 @@ Jellyfin.Server
 yt-dlp.yt-dlp
 yt-dlp.FFmpeg
 Gyan.FFmpeg
-VB-Audio.Voicemeeter
+VB-Audio.Voicemeeter.potato
 Rem0o.FanControl
 RivaTuner.Statistics.Server  # let op: jouw entry heet Guru3D.RTSS in winget
 Unigine.HeavenBenchmark
@@ -59,6 +59,7 @@ RARLab.WinRAR
 CodeSector.TeraCopy
 SumatraPDF.SumatraPDF
 LocalSend.LocalSend
+RevoUninstaller.RevoUninstaller
 
 # ==========================
 # Cloud / Sync / Passwords
