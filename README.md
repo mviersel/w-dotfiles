@@ -32,13 +32,13 @@ npm install nvim-treesitter-cli
 Hierna kun je neovim starten, open powershell `nvim`. Hierna moet alles goed geinstalleerd worden.
 
 Bookmarks
-- (raindrop){https://raindrop.io/}
+- [raindrop](https://raindrop.io/)
 
 chrome extensions
-- (bitwarden){https://chromewebstore.google.com/detail/bitwarden-wachtwoordbehee/nngceckbapebfimnlniiiahkandclblb"}
-- (vimium){https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb"}
-- (dark reader){https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"}
-- (sponsorblock){https://chromewebstore.google.com/detail/sponsorblock-voor-youtube/mnjggcdmjocbbbhaepdhchncahnbgone"}
-- (youtube windowed fullscreen){https://chromewebstore.google.com/detail/youtube-windowed-fullscre/gkkmiofalnjagdcjheckamobghglpdpm" }
-- (remove youtube shorts){https://chromewebstore.google.com/detail/remove-youtube-shorts/mgngbgbhliflggkamjnpdmegbkidiapm"}
-- (tampermonkey){https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo"}
+- [bitwarden](https://chromewebstore.google.com/detail/bitwarden-wachtwoordbehee/nngceckbapebfimnlniiiahkandclblb")
+- [vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb")
+- [dark reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh")
+- [sponsorblock](https://chromewebstore.google.com/detail/sponsorblock-voor-youtube/mnjggcdmjocbbbhaepdhchncahnbgone")
+- [youtube windowed fullscreen](https://chromewebstore.google.com/detail/youtube-windowed-fullscre/gkkmiofalnjagdcjheckamobghglpdpm")
+- [remove youtube shorts](https://chromewebstore.google.com/detail/remove-youtube-shorts/mgngbgbhliflggkamjnpdmegbkidiapm")
+- [tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo")
