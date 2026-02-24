@@ -4,7 +4,7 @@ general:
   # script or launching another application.
   # Example: The below command launches Zebar.
   # startup_commands: ['shell-exec zebar']
-  startup_commands: ['shell-exec yasb']
+  # startup_commands: ['shell-exec yasb']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -169,38 +169,31 @@ window_rules:
       # Floating rules for your apps:
   - commands: ["set-floating"]
     match:
-      - window_process: { equals: "voicemeeterbanana.exe" }
+      - window_process: { regex: "(?i)voicemeeterbanana" }
+      - window_process: { regex: "(?i)TeraCopy" }
+      - window_process: { regex: "(?i)QuickLook" }
+      - window_process: { regex: "(?i)winrar"}
+      - window_process: { regex: "(?i)JDownloader2"}
 
-  - commands: ["set-floating"]
+  - commands: ["move --workspace 1"]
     match:
-      - window_process: { equals: "TeraCopy" }
-
-  - commands: ["set-floating"]
-    match:
-      - window_process: { equals: "QuickLook" }
-
-  - commands: ["set-floating"]
-    match:
-      - window_process: { equals: "winRAR.exe"}
-
-  - commands: ["set-floating"]
-    match:
-      - window_process: { equals: "JDownloader2.exe"}
-
-  - commands: ["move --workspace 9"]
-    match:
-      - window_process: { regex: "(?i)zen"}
-      - window_title: { regex: "(?i)zen"}
+      - window_process: { regex: "(?i)discord"}
+      - window_process: { regex: "(?i)terminal"}
+      - window_process: { regex: "(?i)windows powershell"}
+      - window_process: { regex: "(?i)visual studio"}
 
   - commands: ["move --workspace 2"]
     match:
       - window_process: { regex: "(?i)obsidian"}
-      - window_title: { regex: "(?i)obsidian"}
+
+  - commands: ["move --workspace 7"]
+    match:
+      - window_process: { regex: "(?i)whatsapp"}
 
   - commands: ["move --workspace 8"]
     match:
-      - window_process: { regex: "(?i)whatsapp"}
-      - window_title: { regex: "(?i)whatsapp"}
+      - window_process: { regex: "(?i)zen"}
+      - window_process: { regex: "(?i)helium"}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
