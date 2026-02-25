@@ -6,6 +6,7 @@ $packages = @(
     "ts-node",
     "eslint",
     "nodemon"
+    "tree-sitter-cli
 )
 
 # Ensure npm is available
