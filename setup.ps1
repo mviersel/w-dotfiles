@@ -24,20 +24,8 @@ Write-Host "Step 2: Installing Winget packages..."
 Write-Host "Step 3: Installing global Node/NPM packages..."
 & "$root\install\install-node.ps1"
 
-# 4) Set desktop background
-Write-Host "Step 4: Setting desktop background..."
-& "$root\windows\set-background.ps1"
-
 # 5) Enable old context menu
 Write-Host "Step 5: Enabling old context menu..."
-& "$root\windows\enable-old-context-menu.ps1"
-
-# 6) Apply optional tweaks
-Write-Host "Step 6: Applying optional Windows tweaks..."
-& "$root\windows\tweaks-optional.ps1"
-
-# 7) Apply app configs (e.g. GlazeWM)
-Write-Host "Step 7: Applying app configs..."
-& "$root\windows\apply-configs.ps1"
+& "$root\enable-old-context-menu.ps1"
 
 Write-Host "== All done! You may want to reboot to ensure all settings are applied. =="
